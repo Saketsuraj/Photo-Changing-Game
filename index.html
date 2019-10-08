@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Photo Changing Game</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Luckiest+Guy"
@@ -28,20 +28,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <script>
-      //  $(document).ready(function(){
-      //   $('button').click(function(){
-      //    const name = $('#nameid').val();
-      //    alert(name);
-      //    $('.imgchange').attr('src',`https://joeschmoe.io/api/v1/${name}`);
-      //    const b = $('.imgchange');
-      //    console.log(b);
-
-      //   });
-      //  });
       $(document).ready(function() {
         $('button').click(function() {
           const name = $('#nameid').val();
-          alert(name);
           $('.imgchange').attr('src', `https://joeschmoe.io/api/v1/${name}`);
         });
       });
