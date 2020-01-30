@@ -1,2 +1,2 @@
 # Photo-Changing-Game-for-implementing-API
-I was doing this small project to understand better how to integrate API in a website.
+I was doing this mini project to improve my understanding of API integration with website.
